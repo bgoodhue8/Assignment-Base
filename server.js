@@ -87,5 +87,7 @@ searchInput.addEventListener('keyup', (evt) => {
 });
 }
 
-window.onload = windowActions;
-const arrayName = await request.json()
+if (typeof window !== "undefined"){
+  window.onload = windowActions;
+  const arrayName = await request.json()
+}
