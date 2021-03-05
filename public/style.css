@@ -1,0 +1,22 @@
+body {
+    width: 70%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #6091C3;
+  }
+
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Big Shoulders Display', Semi-bold 600;
+    color: #2a2a2a;
+  }
+
+  p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2a2a2a;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
