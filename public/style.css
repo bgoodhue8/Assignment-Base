@@ -2,7 +2,10 @@ body {
   width: 70%;
   max-width: 960px;
   margin: 0 auto;
-  background-color: #6091C3;
+}
+
+.box {
+  background-color: #81b4e7;
 }
 
 h1 {
@@ -10,22 +13,24 @@ h1 {
   text-align: center;
   font-weight: 500;
   font-family: 'Big Shoulders Display', Semi-bold 600;
-  color: #2a2a2a;
+  color: #474747;
 }
 
-p {
+h2 {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #2a2a2a;
+  color: #757575;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
-label {
+.search {
   font-family: 'Roboto Condensed', sans-serif;
   color: #575656;
   font-size: 1rem;
   line-height: 1.5;
+  text-align: center;
+  padding-top: 10px;
 }
 
 /*background-color: red; *//* For browsers that do not support gradients */

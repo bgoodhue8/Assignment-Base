@@ -25,11 +25,11 @@ function displayMatches(event) {
         <span class="city">${place.city.toLowerCase()}</span>
         <span class="zip">${place.zip.toLowerCase()}</span>
     </li>
-`).join('');
+`}).join('');
 suggestions.innerHTML = html;
 }
 
 searchInput.addEventListener('keyup', (event) => {
     event.preventDefault();
     displayMatches(event);
-});
+}); }
